@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> -->
+    <link href="css/adaptive.css" rel="stylesheet">
+	<link href="fonts/stylesheet.css" rel="stylesheet">
+	<link href="animation/animate.css" rel="stylesheet">
+  </head>
+ <body>
+	<div class="pr"> <!-- убрать ovh если есть position sticky -->
+		<div class="height_menu"></div>
+		<header class="menu_container fixobvertka bg_white">
+			<div class="container d-flex align-items-center justify-content-between">
+				<a href="/index.html" class="logo hovop">
+					<img src="img/RusAgroMarket-logo.svg" alt="logo">
+				</a>
+				<nav class="menu-block">
+					<div class="hide_block_menu top_menu justify-content-between align-items-center" style="display: none;">
+						<a href="/index.html" class="hovop half_hide_logo d-flex justify-content-end">
+							<img src="img/RusAgroMarket-logo.svg" alt="logo">
+						</a>
+						<div class="close_menu btn_close_theme brs25 gray_border_theme hover_blue_theme trs">
+							<div class="group_line pr trs">
+								<div class="line_close"></div>
+								<div class="line_close"></div>
+							</div>
+						</div>
+					</div>
+		            <div class="menu-navigation-container">
+			            <ul class="menu">
+			            	<li class="menu-item menu-item-has-children">
+			            		<a href="/postavshikam.html">Поставщикам</a>
+								<ul class="sub-menu">
+			            			<li class="menu-item">
+			            				<a href="/arenda.html">Аренда</a>
+			            			</li>
+			            			<li class="menu-item">
+			            				<a href="/optovaya-torgovlya.html">Оптовая торговля</a>
+			            			</li>
+									<li class="menu-item">
+			            				<a href="/logistika.html">Логистика</a>
+			            			</li>
+									<li class="menu-item">
+			            				<a href="/predprodajnaya-podgotovka.html">Предпродажная подготовка</a>
+			            			</li>
+			            		</ul>
+			            	</li>
+							<li class="menu-item">
+			            		<a href="/pokupatelyam.html">Покупателям</a>
+			            	</li>
+							<li class="menu-item">
+			            		<a href="/o-proekte.html">О проекте</a>
+			            	</li>
+							<li class="menu-item">
+			            		<a href="/pokupatelyam.html#online_purchases">Онлайн-торговля</a>
+			            	</li>
+			            </ul>
+		            </div>
+					<div class="hide_block_menu bottom_menu flex-column" style="display: none;">
+						<div class="contacts d-flex align-items-center">
+							<a href="tel:88005009332" class="tel">8 800 500 93 32</a>
+							<a href="https://t.me/savkovbohdan" class="ic-link icon-telegram" target="_blank"></a>
+							<a href="https://api.whatsapp.com/send?phone=88005009332" class="ic-link icon-whatsapp" target="_blank"></a>
+						</div>
+						<div class="header_btns row_btns d-flex flex-column align-items-start">
+							<a href="#rental" class="btn btn_middle blue_theme hover_blue_border_theme btn_rental">Заявка на аренду</a>
+							<a href="http://lk.ramcorp.ru/auth/automation" target="_blank" class="btn btn_middle blue_border_theme hover_blue_theme btn_signin">Войти</a>
+						</div>
+						<!-- <div class="social_networks d-flex align-items-center mt30">
+							<a href="" target="_blank" class="soc_net icon-facebook"></a>
+							<a href="" target="_blank" class="soc_net icon-vk"></a>
+							<a href="" target="_blank" class="soc_net icon-instagram"></a>
+						</div> -->
+					</div>
+		    	</nav>
+				<div class="contacts d-flex align-items-center">
+					<a href="tel:88005009332" class="tel">8 800 500 93 32</a>
+					<a href="https://t.me/savkovbohdan" class="ic-link icon-telegram" target="_blank"></a>
+					<a href="https://api.whatsapp.com/send?phone=88005009332" class="ic-link icon-whatsapp" target="_blank"></a>
+				</div>
+				<div class="header_btns row_btns d-flex">
+					<a href="#rental" class="btn btn_middle blue_theme hover_blue_border_theme btn_rental">Заявка на аренду</a>
+					<a href="http://lk.ramcorp.ru/auth/automation" target="_blank" class="btn btn_middle blue_border_theme hover_blue_theme btn_signin">Войти</a>
+				</div>
+				<div class="btnmenu align-items-center brs25 gray_border_theme trs">
+					<div class="circles_menu fsh d-flex flex-wrap">
+						<div class="circle_menu trs"></div>
+						<div class="circle_menu trs"></div>
+						<div class="circle_menu trs"></div>
+						<div class="circle_menu trs"></div>
+					</div>
+					<span>Меню</span>
+				</div>
+			</div>
+		</header>
+
+        <main>
+			<div class="bg_white">
+				<section id="new">
+					<div class="container">
+						<div class="row row_new align-items-start">
+							<aside class="col-md-3 forstick pd pr psk">
+								<div class="stick">
+									<div class="bread_crumbs">
+										<a href="/index.html">Главная</a>
+										<div class="separator"></div>
+										<span>Новости</span>
+									</div>
+									<a href="/novosti.html" class="btn_back_to_news btnprevtempl d-flex justify-content-center align-items-center icon-arrow-right gray_theme hover_blue_theme trs brs15"></a>
+									<div class="aside_blocks">
+										<div class="cats aside_block d-flex flex-wrap">
+											<b class="w100 col_aside">Категории</b>
+											<div class="col_aside">
+												<div class="cat brs15 border_theme2 btn_middle"><span>#Новости компании</span></div>
+											</div>
+											<div class="col_aside">
+												<div class="cat brs15 border_theme2 btn_middle"><span>#Выставки</span></div>
+											</div>
+										</div>
+										<div class="social_networks aside_block d-flex flex-wrap">
+											<b class="w100 col_aside">Поделиться</b>
+											<div class="col_aside">
+												<a href="#" class="network icon_circle icon_middle2 border_theme2 icon-twitter"></a>
+											</div>
+											<div class="col_aside">
+												<a href="#" class="network icon_circle icon_middle2 border_theme2 icon-facebook"></a>
+											</div>
+											<div class="col_aside">
+												<a href="#" class="network icon_circle icon_middle2 border_theme2 icon-vk"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</aside>
+							<div class="col-md-9 info_new">
+								<div class="content_txt">
+									<div class="date">17 января 2020</div>
+									<h2>«РусАгроМаркет» примет участие в выставке WorldFood Moscow-2020</h2>
+								</div>
+								<div class="mainslider slider pr mt30 ovh">
+									<div class="forslides with_dots">
+										<div class="slide">
+											<img class="imgcv brs20" src="" data-lazy="img/novost1.jpg">
+										</div>
+										<div class="slide">
+											<img class="imgcv brs20" src="" data-lazy="img/san-i-vet-kontrol.jpg">
+										</div>
+									</div>
+									<div class="fordotsslider pa zi"></div>
+									<div class="forbtnslider pa d-flex">
+										<div class="btnprev btnprevtempl trs brs15 white_theme hover_blue_theme icon-arrow-right d-flex align-items-center justify-content-center"></div>
+										<div class="btnnext btnnexttempl trs brs15 white_theme hover_blue_theme icon-arrow-right d-flex align-items-center justify-content-center"></div>
+									</div>
+								</div>
+								<div class="content_txt">
+									<blockquote>С 22 по 25 сентября в международном выставочном центре «Крокус Экспо» состоится крупнейшая в России осенняя выставка продуктов питания мирового класса WorldFood Moscow.</blockquote>
+									<p>На этом знаковом для российского продуктового рынка мероприятии соберутся более 1,7 тыс. отечественных и иностранных производителей и поставщиков продовольствия из 65 стран мира, которыепредставят широкий ассортимент продуктов питания во всех категориях. Планируется, что за четыре дня выставку осмотрят свыше 30,7 тыс. посетителей, среди которых будут специалисты из оптовых компаний,розничной сетевой и несетевой торговли, сами производители продуктов питания, а также представители HoReCa. Деловая программа включает более полутора десятка различных мероприятий, где выступит свыше 100 спикеров.</p>
+									<p>«РусАгроМаркет», реализующий проект по строительству в России сети оптово-распределительных центров (ОРЦ), представит на выставке свой стенд. Осмотрев его и пообщавшись с представителями компании, участники WorldFood Moscow смогут узнать о том, что представляет собой современный ОРЦ, в чем выгоды сотрудничества с такими центрами для сельхозпроизводителей, как будет функционировать онлайн-платформа для торговли продовольственными товарами, а также познакомятся с пилотным проектом «РусАгроМаркета» - ОРЦ в Новосибирске, который находится на финальной стадии строительства.</p>
+									<p>«Для нас, и, пожалуй, для большинства участников выставки, — это первое оффлайн-мероприятие после долгого вынужденного перерыва. Появилась возможность встретиться с нашими партнерами, клиентами и поставщиками лицом к лицу, - говорит генеральный директор «РусАгроМаркета» Богдан Григорьев. – Конечно, часть мероприятий в период самоизоляции перешла в онлайн-формат, однако, такие встречи все равно не всегда равноценны живому общению. Поэтому ждем всех на нашем стенде!».</p>
+									<p>Холдинг «РусАгроМаркет» создан для реализации проекта федеральной сети оптово-распределительных центров (ОРЦ) под одноименным брендом. Цель создания сети ОРЦ - формирование в России единой федеральной платформы для эффективной организации доработки, фасовки, хранения, транспортировки и реализации сельскохозяйственной продукции, надлежащего фитосанитарного и ветеринарного контроля, эффективного межрегионального перераспределения сельхозпродукции, а также таможенного обслуживания внешнеторговых потоков продовольствия. Основными инвесторами проекта являются Государственная корпорация развития «ВЭБ.РФ» и инвестиционная компания Proxima Capital Group.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</section>
+
+				
+				<section id="news" class="pr mt70 pb70 ovh">
+					<div class="hide_left_side forpos pa zi"></div>
+					<div class="section_content container default_theme">
+						<div class="newsslider default_slider slider row">
+							<div class="left_side col-lg-3 content_txt pr zi fsh d-flex flex-column justify-content-between">
+								<div class="toppart">
+									<h2>Другие новости</h2>
+									<a href="/novosti.html" class="news_link green_txt tdu mt30 dib">Смотреть все</a>
+								</div>
+								<div class="forbtnslider d-flex">
+									<div class="btnprev btnprevtempl trs brs15 gray_theme hover_blue_theme icon-arrow-right d-flex align-items-center justify-content-center"></div>
+									<div class="btnnext btnnexttempl trs brs15 gray_theme hover_blue_theme icon-arrow-right d-flex align-items-center justify-content-center"></div>
+								</div>
+							</div>
+							<div class="forslides col-sm-6 col-md-5 col-lg-4 without_dots">
+								<a href="#" class="slide content_txt d-flex flex-column justify-content-between">
+									<div class="toppart">
+										<span class="date">21 сентября 2020</span>
+										<h5>«РусАгроМаркет» примет участие в выставке WorldFood Moscow-2020, выставка продуктов питания</h5>
+										<p>С 22 по 25 сентября в международном выставочном центре «Крокус Экспо» состоится крупнейшая в России осенняя выставка продуктов питания...</p>
+									</div>
+									<span class="icon_circle light_blue_theme icon_small icon-arrow-right-small hover_blue_theme trs"></span>
+								</a>
+								<a href="#" class="slide content_txt d-flex flex-column justify-content-between">
+									<div class="toppart">
+										<span class="date">25 июля 2019</span>
+										<h5>ВТБ развивает сотрудничество с группой компаний «РосАгроМаркет»</h5>
+										<p>ВТБ предоставил финансирование по кредитному соглашению, заключенному с ООО «РусАгроМаркет-Новосибирск» в рамках строительства  ОРЦ.</p>
+									</div>
+									<span class="icon_circle light_blue_theme icon_small icon-arrow-right-small hover_blue_theme trs"></span>
+								</a>
+								<a href="#" class="slide content_txt d-flex flex-column justify-content-between">
+									<div class="toppart">
+										<span class="date">15 февраля 2019</span>
+										<h5>На выставке «Продэкспо-2019» компания «РосАгроМаркет» представила проект ОРЦ</h5>
+										<p>На прошедшей 11-15 февраля 2019 года выставке «Продэкспо-2019» компания «РосАгроМаркет» представила специалистам отечественной ...</p>
+									</div>
+									<span class="icon_circle light_blue_theme icon_small icon-arrow-right-small hover_blue_theme trs"></span>
+								</a>
+								<a href="#" class="slide content_txt d-flex flex-column justify-content-between">
+									<div class="toppart">
+										<span class="date">10 февраля 2019</span>
+										<h5>«РосАгроМаркет» представила проект ОРЦ</h5>
+										<p>Компания «РосАгроМаркет» представила специалистам отечественной ...</p>
+									</div>
+									<span class="icon_circle light_blue_theme icon_small icon-arrow-right-small hover_blue_theme trs"></span>
+								</a>
+							</div>
+							
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+
+        <footer class="footer mt70 pt70 white_txt">
+			<div class="container">
+				<a href="/index.html" class="logo hovop dib">
+					<img class="lazy" src="img/RusAgroMarket-logo-white.svg" alt="logo">
+				</a>
+				<div class="middle_footer row">
+					<nav class="menu-block-footer col-6 col-md-3 col-xl-2">
+						<div class="menu-navigation-container">
+							<ul class="menu">
+								<li class="menu-item current-menu-item">
+									<a href="/index.html">Главная</a>
+								</li>
+								<li class="menu-item">
+									<a href="/postavshikam.html">Поставщикам</a>
+								</li>
+								<li class="menu-item">
+									<a href="/pokupatelyam.html">Покупателям</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<nav class="menu-block-footer col-6 col-md-3 col-xl-2">
+						<div class="menu-navigation-container">
+							<ul class="menu">
+								<li class="menu-item">
+									<a href="/o-proekte.html">О проекте</a>
+								</li>
+								<li class="menu-item">
+									<a href="/pokupatelyam.html#online_purchases">Онлайн-торговля</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<div class="footer_contacts col-md-6 col-xl-8 pr">
+						<div class="row justify-content-between">
+							<div class="contacts col-6 col-xl-3">
+								<b>По всем вопросам</b>
+								<div class="contact d-flex align-items-center">
+									<a href="tel:88005009332" class="footer_link tel">8 800 500 93 32</a>
+									<a href="https://t.me/savkovbohdan" class="ic-link icon-telegram" target="_blank"></a>
+									<a href="https://api.whatsapp.com/send?phone=88005009332" class="ic-link icon-whatsapp" target="_blank"></a>
+								</div>
+								<div class="contact">
+									<a href="mailto:info@rosagromarket.ru" class="footer_link">info@rosagromarket.ru</a>
+								</div>
+							</div>
+							<div class="contacts col-6 col-xl-3">
+								<b>Для прессы</b>
+								<div class="contact">
+									<a href="tel:88005009332" class="footer_link">8 800 000 00 00</a>
+								</div>
+								<div class="contact">
+									<a href="mailto:pr@rosagromarket.ru" class="footer_link">pr@rosagromarket.ru</a>
+								</div>
+							</div>
+							<div class="contacts for_address w100">
+								<b>Адрес</b>
+								<div class="contact">
+									<p>Российская Федерация, Новосибирская область, Новосибирский муниципальный район, сельское поселение Толмачевский сельсовет, платформа 3307 км, дом 30, корпус В1, этаж на отметке +7.200, помещение 113</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bottom_footer d-flex flex-wrap align-items-center justify-content-between">
+					<!-- <div class="soc_links d-flex">
+						<a href="#" class="icon-facebook"></a>
+						<a href="#" class="icon-vk"></a>
+						<a href="#" class="icon-instagram"></a>
+					</div> -->
+					<nav class="menu-block-footer">
+						<div class="menu-navigation-container">
+							<ul class="menu">
+								<li class="menu-item">
+									<a href="/policy.html">Политика конфиденциальности</a>
+								</li>
+								<!-- <li class="menu-item">
+									<a href="#">Лицензии</a>
+								</li> -->
+								<li class="menu-item">
+									<a href="/files/Правила-ОРЦ-03.03.2021.pdf" target="_blank">Правила ОРЦ</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<p>Copyright © «РусАгроМаркет» все права защищены</p>
+				</div>
+			</div>
+		</footer>
+            
+        
+        <div class="closeblock2"></div>
+		
+		<div id="rental" class="containerform for_trf_anim">
+	        <div class="forforma">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-lg-5">
+							<div class="btnback btnprevtempl d-flex justify-content-center align-items-center icon-arrow-right gray_theme hover_blue_theme trs brs15"></div>
+							<div class="content_txt another_paragraph">
+								<h2>Заявка на аренду</h2>
+								<p>Заполните поля, мы перезвоним вам.</p>
+								<form>
+									<div class="form_field">
+										<input class="required" type="text" placeholder="Введите ФИО" name="name">
+										<label>ФИО</label>
+									</div>
+									<div class="form_field">
+										<input class="required" type="text" placeholder="Введите e-mail" name="email">
+										<label>E-mail</label>
+									</div>
+									<div class="form_field">
+										<input class="required" type="text" placeholder="+7 (___) __-__-___" data-mask="+7 (999) 99-99-999" name="phone">
+										<label>Телефон</label>
+									</div>
+									<div class="form_field active_field">
+										<textarea class="required" id="comment" placeholder="Например информация про необходимую площадь или вид товара под хранение"></textarea>
+										<label>Комментарий</label>
+									</div>
+									<input type="button" value="Отправить заявку" class="btn btn_large blue_theme hover_blue_border_theme trs btn_send">
+									<span class="agree">Нажимая кнопку «Отправить заявку», вы подтверждаете, что согласны <a href="/policy.html">на обработку персональных данных</a></span>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+	        </div>
+			<div class="imgform bgcv h100 w50 pa myLazy" data-lazy="background-image: url('img/bg-form.jpg');"></div>
+        </div>
+
+		<div id="callback" class="containerform for_trf_anim">
+	        <div class="forforma">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-lg-5">
+							<div class="btnback btnprevtempl d-flex justify-content-center align-items-center icon-arrow-right gray_theme hover_blue_theme trs brs15"></div>
+							<div class="content_txt another_paragraph">
+								<h2>Обратная связь</h2>
+								<p>Заполните поля, мы перезвоним вам, ответим на ваши вопросы</p>
+								<form>
+									<div class="form_field">
+										<input class="required" type="text" placeholder="Введите ФИО" name="name">
+										<label>ФИО</label>
+									</div>
+									<div class="form_field">
+										<input class="required" type="text" placeholder="Введите e-mail" name="email">
+										<label>E-mail</label>
+									</div>
+									<div class="form_field">
+										<input class="required" type="text" placeholder="+7 (___) __-__-___" data-mask="+7 (999) 99-99-999" name="phone">
+										<label>Телефон</label>
+									</div>
+									<div class="form_field active_field">
+										<textarea class="required" name="comment2" id="comment" placeholder="Ваш вопрос"></textarea>
+										<label>Вопрос</label>
+									</div>
+									<input type="button" value="Отправить заявку" class="btn btn_large blue_theme hover_blue_border_theme trs btn_send">
+									<span class="agree">Нажимая кнопку «Отправить заявку», вы подтверждаете, что согласны <a href="/policy.html">на обработку персональных данных</a></span>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+	        </div>
+			<div class="imgform bgcv h100 w50 pa myLazy" data-lazy="background-image: url('img/bg-form.jpg');"></div>
+        </div>
+        
+        <div id="new_application" class="containerform for_trf_anim">
+	        <div class="forforma">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-lg-5">
+							<div class="btnback btnprevtempl d-flex justify-content-center align-items-center icon-arrow-right gray_theme hover_blue_theme trs brs15"></div>
+							<div class="content_txt">
+								<h2>Новая заявка</h2>
+								<p>1. Выберите и скачайте анкету(ы)</p>
+								<div class="files d-flex row">
+									<div class="col_file col-sm-6 d-flex flex-column">
+										<a href="#" target="_blank" class="brs10 bg_white content_col hover_blue_theme fg">
+											<span class="d-flex align-items-start">
+												<span class="fsh icon_circle light_blue_theme icon_small_middle hover_white_theme3 trs icon-attach"></span>
+												<span class="file_info maw">
+													<b>Ответственное хранение</b>
+													<p><span>326кб</span><span>.xlsx</span></p>
+												</span>
+											</span>
+										</a>
+									</div>
+									<div class="col_file col-sm-6 d-flex flex-column">
+										<a href="#" target="_blank" class="brs10 bg_white content_col hover_blue_theme fg">
+											<span class="d-flex align-items-start">
+												<span class="fsh icon_circle light_blue_theme icon_small_middle hover_white_theme3 trs icon-attach"></span>
+												<span class="file_info maw">
+													<b>Услуги кросс- докинга</b>
+													<p><span>326кб</span><span>.xlsx</span></p>
+												</span>
+											</span>
+										</a>
+									</div>
+									<div class="col_file col-sm-6 d-flex flex-column">
+										<a href="#" target="_blank" class="brs10 bg_white content_col hover_blue_theme fg">
+											<span class="d-flex align-items-start">
+												<span class="fsh icon_circle light_blue_theme icon_small_middle hover_white_theme3 trs icon-attach"></span>
+												<span class="file_info maw">
+													<b>Упаковка товаров</b>
+													<p><span>326кб</span><span>.xlsx</span></p>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<p>2. Заполните анкету(ы) и прикрепите к форме ниже 
+									или отправте на почту – <a href="mailto:email@email.ru">email@email.ru</a></p>
+								<form>
+									<div class="form_field">
+										<input class="required" type="text" placeholder="Введите ФИО" name="name">
+										<label>ФИО</label>
+									</div>
+									<div class="form_field">
+										<input class="required" type="text" placeholder="+7 (___) __-__-___" data-mask="+7 (999) 99-99-999" name="phone">
+										<label>Телефон</label>
+									</div>
+									<div class="drag_and_drop tac mt30">
+										<svg xmlns='http://www.w3.org/2000/svg'><rect rx="5" ry="5" width='100%' height='100%' style='fill: none; stroke: #5483B9; stroke-width: 1; stroke-dasharray: 8 10;'/></svg>
+										<div class="dd_content pr zi">
+											<div class="icon-upload-file"></div>
+											<p><label class="button" for="fileElem">Выберите файлы</label> или перетащите их сюда</p>
+											<input type="file" id="fileElem" multiple>
+											<div class="files_names row align-items-center justify-content-center"></div>
+										</div>
+									</div>
+									<input type="button" value="Отправить заявку" class="btn btn_large blue_theme hover_blue_border_theme trs btn_send">
+									<span class="agree">Нажимая кнопку «Отправить заявку», вы подтверждаете, что согласны <a href="/policy.html">на обработку персональных данных</a></span>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+	        </div>
+			<div class="imgform bgcv h100 w50 pa myLazy" data-lazy="background-image: url('img/bg-form.jpg');"></div>
+        </div> 
+        
+        <div id="thank" class="containerform">
+        	<div class="closeblock"></div> 
+	        <div class="forforma for_trf_anim brs15">
+				<div class="d-flex justify-content-between align-items-start">
+					<div class="icon_circle light_blue_theme icon_small_middle icon-check"></div>      
+					<div class="close_form btn_close_theme cp">
+						<div class="group_line pr trs">
+							<div class="line_close"></div>
+							<div class="line_close"></div>
+						</div>
+					</div>
+				</div>
+				<div class="content_txt">
+					<h4>Заявка отправлена</h4>
+					<p>Наш менеджер свяжется с Вами в ближайшее время.</p>    
+				</div>      
+	        </div>
+        </div>
+        
+        
+	</div>
+ 
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery.lazy.min.js"></script>
+    <!-- <script src="js/swipe.js"></script> -->
+    <script src="js/slick.min.js"></script>
+    <script src="animation/jquery.scrollme.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery.mask.min.js"></script>
+	<!-- <script src="animation/animation.js"></script> -->
+  </body>
+</html>
